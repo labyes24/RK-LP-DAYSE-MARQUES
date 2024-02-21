@@ -1,7 +1,6 @@
 import { BrokerImage } from '../../../../components/BrokerImage'
 
 import {
-  CommentCard,
   Container,
   CopyGroup,
   ImageContainer,
@@ -76,16 +75,6 @@ export function RealEstateBrokerDescription({ brokerData }) {
             <span>{brokerData.email}</span>
           </a>
         </LinksCard>
-
-        <CommentCard>
-          <p>
-            &rdquo;Eu e meu marido adquirimos um imóvel através do corretor
-            Winnetou Martins e fomos muito bem tratados do início até a
-            conclusão da compra. Ele é hábil, competente e atencioso.&rdquo;
-          </p>
-
-          <h3>Valzira Souza - Advogada</h3>
-        </CommentCard>
       </div>
     </Container>
   )

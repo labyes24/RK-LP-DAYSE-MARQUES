@@ -26,13 +26,7 @@ export const Container = styled.div`
   .description_card_footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 1.2rem;
-
-    @media screen and (max-width: 1440px) {
-      justify-content: flex-start;
-      gap: 2rem;
-    }
+    justify-content: center;
   }
 `
 
