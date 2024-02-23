@@ -16,8 +16,8 @@ export function PrivatePolicy() {
             <span>
               <strong className="title">RK Imóveis</strong> <br />
               Rua das Gaivotas, 1709 – Salas 102 e 104 <br />
-              Ingleses do Rio Vermelho <br />
-              CEP: 88058-500 - Florianópolis-SC <br />
+              Ingleses do Rio Vermelho - Florianópolis-SC <br />
+              CEP: 88058-500 <br />
               Telefone: (48) 3266-0866 <br />
               E-mail: contato@rkimoveis.com.br
             </span>

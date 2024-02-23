@@ -206,7 +206,7 @@ export function ContactForm() {
         <p>
           Ao informar meus dados eu concordo com a{' '}
           <a href="/privatePolicy" target="_blank">
-            Política de privacidade
+            Política de Privacidade
           </a>
           .
         </p>
