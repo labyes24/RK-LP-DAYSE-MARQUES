@@ -14,7 +14,7 @@ export const Container = styled.div`
   @media (min-width: 1024px) {
     display: flex;
     height: fit-content;
-    width: 95rem;
+    width: 75rem;
     gap: 3.2rem;
     padding: 3.2rem;
     border-radius: 1.6rem;
@@ -166,6 +166,13 @@ export const Price = styled.p`
 export const PropertiesButton = styled(Button)`
   padding: 1.5rem;
   font-size: 2rem;
+  background-color: ${({ theme }) => theme.COLORS['orange']};
+  color: ${({ theme }) => theme.COLORS['blue-sky-700']};
+  transition: all 0.3s;
+  &:hover {
+    background-color: ${({ theme }) => theme.COLORS['orange']};
+    filter: brightness(1.1);
+  }
   @media (min-width: 1024px) {
     font-size: 2.4rem;
   }
