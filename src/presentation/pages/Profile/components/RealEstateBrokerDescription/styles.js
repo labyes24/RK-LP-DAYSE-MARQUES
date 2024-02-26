@@ -116,7 +116,7 @@ export const CopyGroup = styled.div`
     line-height: 140%;
     font-size: 1.2rem;
     font-family: ${({ theme }) => theme.FONTS.Secondary};
-    text-align: left;
+    text-align: justify;
   }
 
   strong {
@@ -131,6 +131,7 @@ export const CopyGroup = styled.div`
     p {
       font-size: 1.6rem;
       padding-right: 1.2rem;
+      text-align: justify;
     }
 
     .paragraphs {

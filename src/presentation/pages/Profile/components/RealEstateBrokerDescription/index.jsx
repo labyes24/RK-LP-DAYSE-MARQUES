@@ -34,7 +34,7 @@ export function RealEstateBrokerDescription({ brokerData }) {
       <article>
         <TitleGroup>
           <h4>{brokerData.name}</h4>
-          <span>CRECI {brokerData.CRECI}</span>
+          <span>CRECI/SC {brokerData.CRECI}</span>
         </TitleGroup>
 
         <CopyGroup>
