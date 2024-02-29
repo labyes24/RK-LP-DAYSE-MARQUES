@@ -35,11 +35,11 @@ const properties = [
       garage: '1',
     },
     pictures: [
+      './properties/santinho-f05.jpg',
       './properties/santinho-f01.jpg',
       './properties/santinho-f02.jpg',
       './properties/santinho-f03.jpg',
       './properties/santinho-f04.jpg',
-      './properties/santinho-f05.jpg',
     ],
   },
   {
@@ -58,8 +58,8 @@ const properties = [
       garage: '2',
     },
     pictures: [
-      './properties/cannes-f01.jpg',
       './properties/cannes-f02.jpg',
+      './properties/cannes-f01.jpg',
       './properties/cannes-f03.jpg',
       './properties/cannes-f04.jpg',
       './properties/cannes-f05.jpg',
@@ -81,10 +81,10 @@ const properties = [
       garage: '2',
     },
     pictures: [
+      './properties/ingleses-f04.jpg',
       './properties/ingleses-f01.jpg',
       './properties/ingleses-f02.jpg',
       './properties/ingleses-f03.jpg',
-      './properties/ingleses-f04.jpg',
       './properties/ingleses-f05.jpg',
     ],
   },
