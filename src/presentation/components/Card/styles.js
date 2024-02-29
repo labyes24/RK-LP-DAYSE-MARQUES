@@ -36,7 +36,7 @@ export const CardContainer = styled.div`
         content: attr(data-count);
         font-size: 1rem;
         top: 11px;
-        left: 79px;
+        left: 79.5px;
         width: 15px;
         height: 15px;
         border-radius: 50%;
@@ -48,7 +48,7 @@ export const CardContainer = styled.div`
           font-size: 1.2rem;
           width: 20px;
           height: 20px;
-          left: 127px;
+          left: 124px;
           top: 17px;
         }
       }
