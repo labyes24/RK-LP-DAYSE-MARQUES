@@ -21,7 +21,7 @@ import mapPinIcon from '../../../../assets/map-pin-icon.svg'
 export function RealEstateBrokerDescription({ brokerData }) {
   const {
     description: { title, paragraph },
-    clientReview: { client, review },
+    clientReview,
   } = brokerData
   const phoneDigits = brokerData.phone.replace(/\D/g, '')
 
@@ -80,11 +80,13 @@ export function RealEstateBrokerDescription({ brokerData }) {
           </a>
         </LinksCard>
 
-        <CommentCard>
-          <p>&rdquo;{review}&rdquo;</p>
+        {clientReview?.review && clientReview?.client && (
+          <CommentCard>
+            <p>&rdquo;{clientReview.review}&rdquo;</p>
 
-          <h3>{client}</h3>
-        </CommentCard>
+            <h3>{clientReview.client}</h3>
+          </CommentCard>
+        )}
       </div>
     </Container>
   )
