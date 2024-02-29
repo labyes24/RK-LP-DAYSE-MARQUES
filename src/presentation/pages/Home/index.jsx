@@ -8,7 +8,9 @@ import { Carousel } from '../../components/Carousel'
 import { useBrokerProfile } from '../../../data/BrokerData'
 
 import videoMobile from '../../assets/rk-video-mobile.mp4'
-import videoDesktop from '../../assets/rk-video-desktop.mp4'
+import videoMobilePoster from '../../assets/rk-video-mobile.jpg'
+import videoDesktop from '../../assets/RK_IMOB_FINAL__720.mp4'
+import videoDesktopPoster from '../../assets/RK_IMOB_FINAL__720.jpg'
 
 export function Home() {
   const broker = useBrokerProfile()
@@ -26,9 +28,9 @@ export function Home() {
         <h2>Oportunidades únicas não esperam por ninguém!</h2>
 
         {isDeviceScreenPortrait ? (
-          <Video src={videoMobile} />
+          <Video src={videoMobile} poster={videoMobilePoster} />
         ) : (
-          <Video src={videoDesktop} />
+          <Video src={videoDesktop} poster={videoDesktopPoster} />
         )}
 
         <Carousel option="card" length={quotes.length}>
