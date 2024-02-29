@@ -35,8 +35,8 @@ export const CardContainer = styled.div`
         position: absolute;
         content: attr(data-count);
         font-size: 1rem;
-        top: 10px;
-        left: 10px;
+        top: 11px;
+        left: 79px;
         width: 15px;
         height: 15px;
         border-radius: 50%;
@@ -48,8 +48,8 @@ export const CardContainer = styled.div`
           font-size: 1.2rem;
           width: 20px;
           height: 20px;
-          left: 10px;
-          top: 10px;
+          left: 127px;
+          top: 17px;
         }
       }
     `}
