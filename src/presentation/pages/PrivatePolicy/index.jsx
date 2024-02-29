@@ -15,7 +15,7 @@ export function PrivatePolicy() {
             nos termos da Lei Geral de Proteção de Dados Pessoais (LGPDP) é:
             <span>
               <strong className="title">RK Imóveis</strong> <br />
-              Rua das Gaivotas, 1709 – Salas 102 e 104 <br />
+              Rua das Gaivotas, 1709 – Sala 104 <br />
               Ingleses do Rio Vermelho - Florianópolis-SC <br />
               CEP: 88058-500 <br />
               Telefone: (48) 3266-0866 <br />
