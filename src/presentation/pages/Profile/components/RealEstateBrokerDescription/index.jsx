@@ -1,6 +1,7 @@
 import { BrokerImage } from '../../../../components/BrokerImage'
 
 import {
+  CommentCard,
   Container,
   CopyGroup,
   ImageContainer,
@@ -18,7 +19,10 @@ import mapPinIcon from '../../../../assets/map-pin-icon.svg'
  * @return {JSX.Element} the rendered broker description
  */
 export function RealEstateBrokerDescription({ brokerData }) {
-  const { title, paragraph } = brokerData.description
+  const {
+    description: { title, paragraph },
+    clientReview: { client, review },
+  } = brokerData
   const phoneDigits = brokerData.phone.replace(/\D/g, '')
 
   return (
@@ -75,6 +79,12 @@ export function RealEstateBrokerDescription({ brokerData }) {
             <span>{brokerData.email}</span>
           </a>
         </LinksCard>
+
+        <CommentCard>
+          <p>&rdquo;{review}&rdquo;</p>
+
+          <h3>{client}</h3>
+        </CommentCard>
       </div>
     </Container>
   )

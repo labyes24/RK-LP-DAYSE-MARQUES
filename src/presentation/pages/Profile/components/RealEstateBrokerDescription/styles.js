@@ -26,7 +26,7 @@ export const Container = styled.div`
   .description_card_footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 1.2rem;
   }
 `
 
@@ -212,5 +212,41 @@ export const LinksCard = styled.div`
         font-size: 1.6rem;
       }
     }
+  }
+`
+
+export const CommentCard = styled.div`
+  padding: 2.2rem 1.4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border-radius: 1.6rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+
+  p {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 130%;
+  }
+
+  h3 {
+    color: #758df4;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 2.3rem 1.6rem 1rem;
+    color: ${({ theme }) => theme.COLORS.white};
+    max-width: 27rem;
+    width: 100%;
   }
 `
