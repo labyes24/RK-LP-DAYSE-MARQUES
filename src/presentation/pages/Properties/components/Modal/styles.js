@@ -120,6 +120,8 @@ export const Form = styled.form`
 
   button[type='submit'] {
     padding: 1.6rem 3.2rem;
+    background-color: ${({ theme }) => theme.COLORS.orange};
+    
     @media screen and (min-width: 524px) {
       font-size: 2rem;
     }
