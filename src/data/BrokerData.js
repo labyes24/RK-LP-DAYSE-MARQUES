@@ -57,7 +57,7 @@ const brokerProfile = {
   id: crypto.randomUUID(),
   name: 'Dayse Marques',
   CRECI: '26.993-F',
-  profileImage: '/broker/day1.png',
+  profileImage: '/broker/day.png',
   description: {
     title: 'CORRETORA - AVALIADORA - PERITA JUDICIAL',
     paragraph: [
@@ -72,7 +72,7 @@ const brokerProfile = {
     city: 'Florianópolis',
     state: 'SC',
   },
-  phone: '(48) 99156.5111',
+  phone: '(48) 99156-5111',
   email: 'dayse@rkimoveis.com.br',
   clientReview: {
     review: '',
