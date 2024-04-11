@@ -18,6 +18,7 @@ import roomIcon from '../../../../assets/room-icon.svg'
 import squareIcon from '../../../../assets/square-icon.svg'
 import showerIcon from '../../../../assets/shower-icon.svg'
 import { SplideSlide } from '@splidejs/react-splide'
+import Markdown from 'markdown-to-jsx'
 
 import Markdown from 'markdown-to-jsx'
 
