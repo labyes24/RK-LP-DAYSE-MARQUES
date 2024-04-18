@@ -26,7 +26,7 @@ const properties = [
     title: 'Brisamar',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA. Lindo e amplo apartamento, dois dormitórios, sendo 1 suíte, sacada com churrasqueira, totalmente mobiliado em condomínio com piscina, numa das melhores ruas da Praia dos Ingleses. Localizado a 500 mts do mar.',
+      '**IMÓVEL COM MATRÍCULA**\n\n Lindo e amplo apartamento, dois dormitórios, sendo 1 suíte, sacada com churrasqueira, totalmente mobiliado em condomínio com piscina, numa das melhores ruas da Praia dos Ingleses. Localizado a 500 mts do mar.',
     price: 'R$ 650.000,00',
     details: {
       square: '78,52 m²',
@@ -49,7 +49,7 @@ const properties = [
     title: 'Ilha das Galés',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA. Maravilhosa cobertura com 4 dormitórios sendo 3 suítes, amplo terraço com piscina, sala dois ambientes, totalmente mobiliada, com vista mar, localizada na parte nobre do bairro e a uma quadra da praia.',
+      '**IMÓVEL COM MATRÍCULA**\n\n Maravilhosa cobertura com 4 dormitórios sendo 3 suítes, amplo terraço com piscina, sala dois ambientes, totalmente mobiliada, com vista mar, localizada na parte nobre do bairro e a uma quadra da praia.',
     price: 'R$ 2.600.000,00',
     details: {
       square: '235,47 m²',
@@ -72,7 +72,7 @@ const properties = [
     title: 'Ponta do Mar',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA! Imperdível! Se você está procurando um apartamento amplo e próximo ao mar, esse é o imóvel certo. Apartamento mobiliado, com 3 dormitórios, sendo uma suíte com sacada, cozinha planejada integrada à sala, varanda espaçosa com churrasqueira a carvão, uma vaga de garagem e hobby box. O condomínio oferece piscina, salão de festas, elevador e segurança.',
+      '**IMÓVEL COM MATRÍCULA**\n\n Imperdível! Se você está procurando um apartamento amplo e próximo ao mar, esse é o imóvel certo. Apartamento mobiliado, com 3 dormitórios, sendo uma suíte com sacada, cozinha planejada integrada à sala, varanda espaçosa com churrasqueira a carvão, uma vaga de garagem e hobby box. O condomínio oferece piscina, salão de festas, elevador e segurança.',
     price: 'R$ 739.000,00',
     details: {
       square: '105,30 m²',
