@@ -17,6 +17,8 @@ import squareIcon from '../../../../assets/square-icon.svg'
 import showerIcon from '../../../../assets/shower-icon.svg'
 import { SplideSlide } from '@splidejs/react-splide'
 
+import Markdown from 'markdown-to-jsx'
+
 import { useState } from 'react'
 
 const IconsMap = {
@@ -81,7 +83,12 @@ export function PropertyCard({
             ))}
         </Tags>
         <Description>
-          <p>{propertyInfo.description}</p>
+          <Markdown
+            options={{ disableParsingRawHTML: true }}
+            className="description-text"
+          >
+            {propertyInfo.description}
+          </Markdown>
           <p>
             <small>Informações sujeitas a alterações sem aviso prévio.</small>
           </p>
