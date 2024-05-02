@@ -20,8 +20,6 @@ import showerIcon from '../../../../assets/shower-icon.svg'
 import { SplideSlide } from '@splidejs/react-splide'
 import Markdown from 'markdown-to-jsx'
 
-import Markdown from 'markdown-to-jsx'
-
 import { useState } from 'react'
 
 const IconsMap = {
