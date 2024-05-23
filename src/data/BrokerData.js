@@ -56,7 +56,7 @@
 const brokerProfile = {
   id: crypto.randomUUID(),
   name: 'Dayse Marques',
-  CRECI: '26.993-F',
+  CRECI: '26.993-F | CNAI 37.439',
   profileImage: '/broker/day.png',
   description: {
     title: 'CORRETORA - AVALIADORA - PERITA JUDICIAL',
