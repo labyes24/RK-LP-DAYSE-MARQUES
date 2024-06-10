@@ -86,6 +86,7 @@ const brokerProfilePT = {
   },
   phone: '(48) 99156-5111',
   email: 'dayse@rkimoveis.com.br',
+  instagram: 'daysemarquescorretora',
   clientReview: {
     review: '',
     client: '',
@@ -188,6 +189,7 @@ const brokerProfileES = {
   },
   phone: '(48) 99156-5111',
   email: 'dayse@rkimoveis.com.br',
+  instagram: 'daysemarquescorretora',
   clientReview: {
     review: '',
     client: '',
